@@ -8,12 +8,12 @@ const userSchema = mongoose.Schema({
     },
     email: {
         type: String,
-        min: 4,
+        min: 6,
         required: true
     },
     password: {
         type: String,
-        min: 4,
+        min: 6,
         required: true
     },
     gender: {
@@ -24,7 +24,7 @@ const userSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    profression: {
+    profession: {
         type: String,
         required: true
     }
